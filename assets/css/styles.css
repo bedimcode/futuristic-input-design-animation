@@ -1,0 +1,47 @@
+/*=============== GOOGLE FONTS ===============*/
+@import url("https://fonts.googleapis.com/css2?family=Montserrat+Alternates:wght@400;600&display=swap");
+
+/*=============== VARIABLES CSS ===============*/
+:root {
+  /*========== Colors ==========*/
+  /*Color mode HSL(hue, saturation, lightness)*/
+  --first-color: hsl(240, 90%, 58%);
+  --title-color: hsl(240, 80%, 12%);
+  --text-color: hsl(240, 24%, 56%);
+  --body-color: hsl(240, 52%, 96%);
+  --container-color: hsl(240, 52%, 92%);
+
+  /*========== Font and typography ==========*/
+  /*.5rem = 8px | 1rem = 16px ...*/
+  --body-font: "Montserrat Alternates", sans-serif;
+  --normal-font-size: 1rem;
+  --tiny-font-size: .625rem;
+}
+
+/*=============== BASE ===============*/
+* {
+  box-sizing: border-box;
+  padding: 0;
+  margin: 0;
+}
+
+body {
+  font-family: var(--body-font);
+  font-size: var(--normal-font-size);
+  background-color: var(--body-color);
+  color: var(--text-color);
+}
+
+/*=============== INPUT ===============*/
+
+
+/* Input focus move up label */
+
+
+/* Input focus sticky top label */
+
+
+/* Input focus color */
+
+
+/* Gradient background animation */
